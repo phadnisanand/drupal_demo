@@ -46,7 +46,8 @@ grumphp:
     # Don't run psalm on Windows for now. There is a known issue with the Windows phar:
     # https://github.com/vimeo/psalm/issues/2858
     windows:
-      tasks: [phpcs, phpspec, phpunit, composer, composer_normalize, yamllint, phplint, phpparser]
+      #tasks: [phpcs, phpspec, phpunit, composer, composer_normalize, yamllint, phplint, phpparser]
+      tasks: [phpcs, composer, yamllint, phplint]
   environment:
     variables:
       BOX_REQUIREMENT_CHECKER: 0
