@@ -15,7 +15,8 @@
     "eslint:total": "eslint '**/*.js'",
     "eslint:current": "eslint $(git diff --name-status | grep '\\.js$' | grep -v \"^[RD]\" | awk '{ print $2 }')",
     "eslint:total:fix": "eslint '**/*.js' --fix",
-    "eslint:current:fix": "eslint --fix $(git diff --name-status | grep '\\.js$' | grep -v \"^[RD]\" | awk '{ print $2 }')"
+    "eslint:current:fix": "eslint --fix $(git diff --name-status | grep '\\.js$' | grep -v \"^[RD]\" | awk '{ print $2 }')",
+	"lint:yaml": "eslint --ext .yml modules/custom"
   },
   "author": "",
   "license": "ISC",
