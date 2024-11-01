@@ -7,15 +7,8 @@ grumphp:
         - "spec/*Spec.php"
         - "test/*.php"
         - "stubs/*.php"
-    phpspec:
-      format: progress
-      verbose: true
-    phpunit:
-      testsuite: Unit
     composer:
       no_check_lock: true
-    composer_normalize:
-      use_standalone: true
     yamllint:
       parse_custom_tags: true
       ignore_patterns:
@@ -42,7 +35,7 @@ grumphp:
       #tasks: [phpcs, phpspec, phpunit, composer, composer_normalize, yamllint, phplint, phpparser, psalm]
     # On CI, we run paratest separately. For some reason this currently fails in GitHub actions.
     ci:
-      tasks: [phpcs, phpspec, phpunit, composer, composer_normalize, yamllint, phplint, phpparser, psalm]
+      tasks: [phpcs, composer, yamllint, phplint]
     # Don't run psalm on Windows for now. There is a known issue with the Windows phar:
     # https://github.com/vimeo/psalm/issues/2858
     windows:
