@@ -28,11 +28,7 @@
         "drupal/drupal": "*"
     },
 	"scripts": {
-	 	"grumphp": "./vendor/bin/grumphp run",
-		"phpcs:total": "./vendor/bin/phpcs --file-list=modules/custom --standard=Drupal --extensions=php,module,inc,install,test,profile .",
-		"phpcs:current": "./vendor/bin/phpcs  --file-list=modules/custom  --standard=Drupal --extensions=php,module,inc,install,test,profile $(git diff --name-status | grep -v \"^[RD]\" | awk '{ print $2 }')",
-		"phpcs:total:fix": "./vendor/bin/phpcbf   --file-list=modules/custom --standard=Drupal --extensions=php,module,inc,install,test,profile .",
-		"phpcs:current:fix": "./vendor/bin/phpcbf  --file-list=modules/custom  --standard=Drupal --extensions=php,module,inc,install,test,profile $(git diff --name-status | grep -v \"^[RD]\" | awk '{ print $2 }')"
+	 	"grumphp": "./vendor/bin/grumphp run"
 	},
     "minimum-stability": "stable",
     "prefer-stable": true,
