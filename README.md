@@ -19,6 +19,13 @@ https://github.com/u7aro/stylelint-config-drupal   (imp)
 https://www.npmjs.com/package/eslint-config-drupal   (imp)
 https://www.drupal.org/node/2274223
 https://www.drupal.org/node/1955232
+
+
+https://www.enik.pro/drupal/tools/2024/08/19/remove-blt.html
+
+https://github.com/acquia/drupal-canary-project/blob/main/grumphp.yml
+
+https://gist.github.com/jameswilson/3b734753a20b74218b68b01115e1c4e0
 https://git.drupalcode.org/project/drupal/-/blob/11.x/.eslintignore
 ctrl+shit+ p -> open settings vscode
 
