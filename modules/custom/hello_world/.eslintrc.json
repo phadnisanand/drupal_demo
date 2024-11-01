@@ -1,0 +1,11 @@
+{
+  "extends": [
+    "eslint-config-drupal"
+  ],
+  "root": true,
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
+}

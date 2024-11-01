@@ -1,0 +1,30 @@
+{
+  "name": "new",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "eslint:total": "eslint ./js --ignore-pattern node_modules/",
+    "eslint:total:fix": "eslint ./js --ignore-pattern node_modules/ --fix",
+    "stylelint:total": "stylelint ./css --ignore-pattern node_modules/",
+    "prettier": "prettier --write \"./**/*.css\" \"./**/*.js\"",
+    "stylelint:total:fix": "stylelint ./css --ignore-pattern node_modules/ --fix"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "eslint": "^8.53.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-drupal": "^5.0.2",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-formatter-gitlab": "^5.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jquery": "^1.5.1",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-yml": "^1.8.0",
+    "prettier": "^3.3.3",
+    "stylelint": "^14.16.1",
+    "stylelint-config-drupal": "^3.1.0"
+  }
+}
