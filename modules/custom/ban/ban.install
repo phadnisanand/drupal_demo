@@ -13,22 +13,13 @@ function ban_schema()
     'description' => 'Stores banned IP addresses.',
     'fields' => [
       'iid' => [
-        'description' => 'Primary Key: unique ID for IP addresses.',
-        'type' => 'serial',
-        'unsigned' => TRUE,
-        'not null' => TRUE,
-      ],
-      'ip' => [
+
         'description' => 'IP address',
         'type' => 'varchar_ascii',
         'length' => 40,
         'not null' => TRUE,
         'default' => '',
-      ],
-    ],
-    'indexes' => [
-      'ip' => ['ip'],
-    ],
+      ],\],
     'primary key' => ['iid'],
   ];
   return $schema;
