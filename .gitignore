@@ -1,0 +1,8 @@
+vendor
+core
+node_modules
+sites/*/files
+sites/*/public
+sites/*/private
+sites/*/files-public
+sites/*/files-private
