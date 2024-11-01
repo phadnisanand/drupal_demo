@@ -2,7 +2,7 @@ grumphp:
   process_timeout: 480
   tasks:
     phpcs:
-      standard: PSR2
+      standard: Drupal
       ignore_patterns:
         - "spec/*Spec.php"
         - "test/*.php"
@@ -38,7 +38,7 @@ grumphp:
       no_cache: true
   testsuites:
     git_pre_commit:
-       tasks: [phpcs:total, composer, yamllint, phplint]
+       tasks: [phpcs, composer, yamllint, phplint]
       #tasks: [phpcs, phpspec, phpunit, composer, composer_normalize, yamllint, phplint, phpparser, psalm]
     # On CI, we run paratest separately. For some reason this currently fails in GitHub actions.
     ci:
