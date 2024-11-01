@@ -6,6 +6,8 @@
   <rule ref="Drupal"/>
   <rule ref="DrupalPractice"/>
   <exclude-pattern>*/node_modules/*</exclude-pattern>
+  <exclude-pattern>*/sites/default/*</exclude-pattern>
+  <exclude-pattern>*/sites/default/files/*</exclude-pattern>
   <!-- Include path with the Drupal and DrupalPractice rules. -->
   <!-- <config name="installed_paths" value="vendor/drupal/coder/coder_sniffer"/>  -->
 

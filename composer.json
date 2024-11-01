@@ -17,6 +17,7 @@
     "require": {
         "composer/installers": "^2.0",
         "dallask/all-in-one-code-checker": "^1.0",
+        "drupal/bootstrap": "^5.0",
         "drupal/coder": "^8.3",
         "drupal/core-composer-scaffold": "^10.3",
         "drupal/core-project-message": "^10.3",
@@ -28,7 +29,15 @@
         "drupal/drupal": "*"
     },
 	"scripts": {
-	 	"grumphp": "./vendor/bin/grumphp run"
+		 "drupal:build": [
+			"./scripts/build.sh"
+		  ],
+		  "drupal:validate": [
+           "./vendor/bin/grumphp run"
+		  ],
+		   "drupal:deploy": [
+			   "./scripts/deploy.sh"
+		   ]
 	},
     "minimum-stability": "stable",
     "prefer-stable": true,
