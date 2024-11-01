@@ -3,12 +3,16 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "eslint:total": "eslint ./js --ignore-pattern node_modules/",
+    "eslint:total:fix": "eslint ./js --ignore-pattern node_modules/ --fix",
+    "stylelint:total": "stylelint ./css --ignore-pattern node_modules/",
+    "stylelint:total:fix": "stylelint ./css --ignore-pattern node_modules/ --fix"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "eslint-config-drupal": "^5.0.2",
     "stylelint": "^14.16.1",
     "stylelint-config-drupal": "^3.1.0"
   }

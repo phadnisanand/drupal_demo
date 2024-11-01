@@ -20,7 +20,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "dallask-all-in-one-code-checker": "^1.1.4"
+    "dallask-all-in-one-code-checker": "^1.1.4",
+    "eslint-config-drupal": "^5.0.2"
   },
   "devDependencies": {
     "@ckeditor/ckeditor5-alignment": "~41.3.1",
