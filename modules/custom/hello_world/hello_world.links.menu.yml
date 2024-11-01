@@ -5,4 +5,4 @@ hello.admin:
   route_name: hello.content
   
   
-  weight: 100
+  weight:    100
