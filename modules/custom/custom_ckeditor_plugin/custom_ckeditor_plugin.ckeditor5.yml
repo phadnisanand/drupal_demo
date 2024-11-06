@@ -1,0 +1,11 @@
+custom_ckeditor_plugin_blocks:
+  ckeditor5:
+    plugins:
+      - showBlocks.ShowBlocks
+  drupal:
+    label: Show Blocks
+    admin_library: custom_ckeditor_plugin/custom_ckeditor_plugin
+    toolbar_items:
+      showblocks:
+        label: Show Blocks
+    elements: false

@@ -1,0 +1,7 @@
+name: 'Custom CKEditor Plugin'
+type: module
+description: 'Custom CKEditor Plugin for select and input fields'
+core_version_requirement: ^8 || ^9 || ^10
+package: Custom
+dependencies:
+  - ckeditor:ckeditor5

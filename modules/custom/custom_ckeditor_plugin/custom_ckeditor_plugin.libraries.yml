@@ -1,0 +1,6 @@
+custom_ckeditor_plugin:
+  version: 1.x
+  js:
+    js/build/custom_ckeditor_plugin.js: {}
+  dependencies:
+    - ckeditor:ckeditor5

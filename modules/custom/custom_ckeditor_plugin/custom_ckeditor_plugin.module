@@ -1,0 +1,14 @@
+<?php
+
+
+/**
+ * Implements hook_ckeditor5_plugin().
+ */
+function custom_ckeditor_plugin_ckeditor5_plugin() { die('coming');
+  return [
+    'customFormPlugin' => [
+      'library' => 'custom_ckeditor_plugin/custom_ckeditor_plugin',
+    ],
+  ];
+}
+
